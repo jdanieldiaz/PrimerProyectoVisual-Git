@@ -27,9 +27,9 @@ Partial Class Form1
         '
         'btnAceptar
         '
-        Me.btnAceptar.Location = New System.Drawing.Point(168, 109)
+        Me.btnAceptar.Location = New System.Drawing.Point(98, 34)
         Me.btnAceptar.Name = "btnAceptar"
-        Me.btnAceptar.Size = New System.Drawing.Size(251, 96)
+        Me.btnAceptar.Size = New System.Drawing.Size(168, 48)
         Me.btnAceptar.TabIndex = 0
         Me.btnAceptar.Text = "ACEPTAR"
         Me.btnAceptar.UseVisualStyleBackColor = True
@@ -39,7 +39,7 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Lime
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(498, 267)
         Me.Controls.Add(Me.btnAceptar)
         Me.Name = "Form1"
         Me.Text = "MENU"
