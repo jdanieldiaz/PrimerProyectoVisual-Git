@@ -22,29 +22,30 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnAceptar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Button1
+        'btnAceptar
         '
-        Me.Button1.Location = New System.Drawing.Point(168, 109)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(251, 96)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "ACEPTAR"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnAceptar.Location = New System.Drawing.Point(168, 109)
+        Me.btnAceptar.Name = "btnAceptar"
+        Me.btnAceptar.Size = New System.Drawing.Size(251, 96)
+        Me.btnAceptar.TabIndex = 0
+        Me.btnAceptar.Text = "ACEPTAR"
+        Me.btnAceptar.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Lime
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnAceptar)
         Me.Name = "Form1"
         Me.Text = "MENU"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnAceptar As Button
 End Class
